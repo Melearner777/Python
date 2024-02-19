@@ -5,7 +5,7 @@ def octal_to_decimal(octal_string):
 def main():
     octal_string = input("Enter an octal number: ")
 
-    # Convert and print the decimal equivalent
+
     decimal = octal_to_decimal(octal_string)
     print(f"Decimal equivalent: {decimal}")
 
